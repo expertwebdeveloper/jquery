@@ -1,0 +1,36 @@
+<html>
+<head>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.btn1').click(function(){
+                $('img').hide(4000);
+            });
+            
+            $('.btn2').click(function(){
+                
+                $('img').show(4000);
+            });
+            
+               $('.btn3').click(function(){
+                
+                $('img').toggle(1000);
+            });
+            
+        });
+    
+    
+    
+    
+    </script>
+</head>
+<body>
+  
+  <input type="button" value="Hide the image (hide)" class="btn1"/>
+    <input type="button" value="Show the image the image (show)" class="btn2"/>
+    <input type="button" value="Hide/Show the image (toggle)" class="btn3"/><br><br>
+    <img src="s.jpg" height="600px"/>  
+</body>
+
+
+</html>

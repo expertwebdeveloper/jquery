@@ -1,0 +1,122 @@
+<html>
+<head>
+    <style>
+        #s{
+            width:300px;
+            height:auto;
+            background: pink;
+            border:5px dotted salmon;
+			cursor:pointer;
+             
+            }
+        #s p{
+            text-align: center;
+            font-size: 22px;
+            color:#303639;
+            font-family: comic sans ms;
+        }
+         #a{
+            width:350px;
+            height:auto;
+            background: salmon;
+            border:5px dashed pink;
+            display: none;
+            }
+        #a p{
+            text-align: center;
+            font-size: 22px;
+            color:white;
+            font-family: comic sans ms;
+			text-transform:capitalize;
+			}
+		
+		#f{
+		float:right;
+		 width:300px;
+            height:auto;
+            background: pink;
+            border:5px dotted salmon;
+		}
+		#f p{
+		text-align: center;
+            font-size: 22px;
+            color:#303639;
+            font-family: comic sans ms;
+		}
+		#w{
+		float:right;
+		 width:300px;
+            height:auto;
+            background: pink;
+            border:5px dotted salmon;
+		
+		}
+		
+		#w p{
+		text-align: center;
+            font-size: 22px;
+            color:#303639;
+            font-family: comic sans ms;
+		
+		}
+		#h{
+			float:right;
+			width:300px;
+			height:auto;
+			border:5px dotted salmon;
+			background:pink;
+		
+		
+		}
+		#h p{
+		text-align:center;
+		font-size:22px;
+		font-family:comic sans ms;
+		color:#303639;
+		}
+		
+		
+    </style>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#s').mouseenter(function(){
+                $('#a').slideToggle(7000);
+                
+            });
+			
+			$('#s').mouseleave(function(){
+                $('#a').slideToggle(4000);
+                
+            });
+            
+            
+        });
+		
+    
+    
+    
+    
+    </script>
+    </head>
+<body>
+<div id="s">
+   <p>Ayesha</p>
+</div> 
+<div id="a">
+    <p>welcome ayesha ek baat bolun<br><br>jaise jaise umar bharenge, aas paas ke log badlenge, halat badlenge, ye dunia bhi badlegi, lekin ek chiz kabhi nahi badlega, humare DIL me tumhare liye pyaar,aur tumahre DIL me humare liye pyaar, hammad saima aane ke baad bhi promise karo..<br><br> mere ROOH/DIL ko koi aur na chu payega tum ko chu kar ye kasam khane ko jee chahta hai..<br><br>i realy love you my wife ayesha..   </p>
+    </div>
+<div id="h">
+   <p>Saim</p>
+</div> 
+<div id="f">
+   <p>Hammad</p>
+</div> 
+<div id="w">
+   <p>Saima</p>
+</div> 
+    <br><br>
+    
+    
+</body>    
+</html>
